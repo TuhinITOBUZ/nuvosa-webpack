@@ -1,26 +1,26 @@
 /* By Athlon Front-End Team */
 
 /* Core variables */
-@import 'base/vars';
+@import "base/vars";
 
 /* CSS Reset */
-@import 'base/reset';
+@import "base/reset";
 
 /* CSS print */
-@import 'base/print';
+@import "base/print";
 
 /* Fonts */
-@import 'base/fonts';
+@import "base/fonts";
 
 /* Mixins, helpers and functions */
-@import 'base/mixins';
+@import "base/mixins";
 
 /* Vendor */
 
 /* Components */
 
 /* Browser specific styles */
-@import 'dirty/hacks';
+@import "dirty/hacks";
 
 body {
   margin: 0;
@@ -37,7 +37,7 @@ p {
 }
 
 .violet-color {
-  color: #6F77F1;
+  color: #6f77f1;
 }
 
 .width-85 {
@@ -71,7 +71,7 @@ p {
 }
 
 .navbar-lets-talk:hover {
-  background-color: #FAD725;
+  background-color: #fad725;
   columns: #ffffff;
 }
 
@@ -87,7 +87,7 @@ p {
 }
 
 .page-banner button {
-  background-color: #FAD725;
+  background-color: #fad725;
   border: none;
   margin: 1rem;
   padding: 1rem;
@@ -97,9 +97,9 @@ p {
 .business-section button:hover,
 .card button:hover,
 .website-speed button:hover {
-  transition: all .2s ease-in-out;
-  background-color: #6F77F1;
-  color: #EFEFEF;
+  transition: all 0.2s ease-in-out;
+  background-color: #6f77f1;
+  color: #efefef;
   scale: 1.1;
 }
 
@@ -112,7 +112,7 @@ p {
   box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
   cursor: pointer;
   scale: 1.1;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .optimising-website-card {
@@ -125,23 +125,22 @@ p {
 }
 
 .optimising-website-card:hover {
-  border-bottom: #6F77F1 2px solid !important;
+  border-bottom: #6f77f1 2px solid !important;
   cursor: pointer;
   scale: 1.1;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .business-section {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   flex-direction: column;
 }
 
-
-.business-section>div>button,
+.business-section > div > button,
 .choosing-us button,
 .website-speed button,
 .plans-special-card button {
-  background-color: #FAD725;
+  background-color: #fad725;
   border: none;
 }
 
@@ -158,8 +157,8 @@ p {
   flex-direction: column;
 }
 
-.milestones-achieved>div {
-  border: 1px solid #E1E1E1;
+.milestones-achieved > div {
+  border: 1px solid #e1e1e1;
   flex-direction: column;
 }
 
@@ -167,14 +166,13 @@ p {
   flex-direction: column;
 }
 
-
 .website-speed input {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border: none;
 }
 
 .plans {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .plan-details {
@@ -187,13 +185,13 @@ p {
 }
 
 .plans-card:hover {
-  background-color: #6F77F1;
+  background-color: #6f77f1;
   border-radius: 5px;
   color: #ffffff !important;
 }
 
 .plans-card button:hover {
-  background-color: #FAD725;
+  background-color: #fad725;
   color: black;
 }
 
@@ -207,7 +205,7 @@ p {
 
 .plans-card:hover,
 .plans-special-card:hover {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   scale: 1.2;
   cursor: pointer;
 }
@@ -218,7 +216,7 @@ p {
 
 .our-team-card {
   background-color: white;
-  border: 1px solid #EFEFEF;
+  border: 1px solid #efefef;
   padding: 1.5rem;
 }
 
@@ -228,7 +226,7 @@ p {
 }
 
 .subscribe {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .subscribe-form {
@@ -237,12 +235,12 @@ p {
 
 .subscribe-form input {
   width: 130%;
-  border: 1px solid #C3C6D0;
+  border: 1px solid #c3c6d0;
 }
 
 .subscribe-form button {
   color: white;
-  background-color: #6F77F1;
+  background-color: #6f77f1;
   border: none;
 }
 
@@ -257,7 +255,7 @@ p {
 
 .footer-details {
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .footer-copyright-section {
@@ -266,9 +264,9 @@ p {
 }
 
 .slider-card {
-  border: 1px solid #EFEFEF;
+  border: 1px solid #efefef;
   width: 50vw;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .slider-card:hover {
@@ -289,8 +287,7 @@ p {
   cursor: pointer;
 }
 
-@media screen and (min-width:600px) {
-
+@media screen and (min-width: 600px) {
   .page-banner-expert-logo {
     width: 25%;
   }
@@ -301,7 +298,6 @@ p {
 }
 
 @media screen and (min-width: 960px) {
-
   .navbar-logo {
     margin-top: 0;
     margin-left: 1rem;
@@ -325,11 +321,11 @@ p {
     padding: 4rem 8rem 4rem 0 !important;
   }
 
-  .business-section>div {
+  .business-section > div {
     padding: 4rem 0 4rem 8rem !important;
   }
 
-  .milestones-achieved>div {
+  .milestones-achieved > div {
     flex-direction: row;
   }
 
@@ -337,7 +333,7 @@ p {
     flex-direction: row;
   }
 
-  .website-speed>div {
+  .website-speed > div {
     padding: 4rem 0 4rem 8rem;
   }
 
@@ -359,7 +355,7 @@ p {
 
   .subscribe-form input {
     width: 35%;
-    border: 1px solid #C3C6D0;
+    border: 1px solid #c3c6d0;
   }
 
   .footer-details {
@@ -372,7 +368,7 @@ p {
   }
 
   .slider-card {
-    border: 1px solid #EFEFEF;
+    border: 1px solid #efefef;
     width: 50%;
   }
 
@@ -390,7 +386,7 @@ p {
     flex-direction: row;
   }
 
-  .seo-section>img {
+  .seo-section > img {
     width: 50%;
     padding: 6rem;
   }
